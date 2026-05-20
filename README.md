@@ -12,9 +12,9 @@ A simple implementation of **JSON Web Token (JWT)** authentication using Node.js
 Clone the repo and install dependencies:
 
 bash
-git clone https://github.com/DhamodharThiyagarajan/jwt.git
-cd jwt
-npm install
+- git clone https://github.com/DhamodharThiyagarajan/jwt.git
+- cd jwt
+- npm install
 
 
 ## ⚙️ Setup
