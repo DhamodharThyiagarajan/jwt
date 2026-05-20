@@ -21,9 +21,9 @@ npm install
 Create a .env file in the root:
 
 Code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-SECRET_KEY=your_secret_key
+-PORT=5000
+-MONGO_URI=your_mongodb_connection_string
+-SECRET_KEY=your_secret_key
 
 
 ## 📖 Example Flow
