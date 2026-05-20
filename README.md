@@ -21,13 +21,13 @@ npm install
 Create a .env file in the root:
 
 Code
--PORT=5000
--MONGO_URI=your_mongodb_connection_string
--SECRET_KEY=your_secret_key
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- SECRET_KEY=your_secret_key
 
 
 ## 📖 Example Flow
--User logs in → server validates credentials
--Server issues JWT → client stores it (localStorage/cookie)
--Client sends JWT in Authorization: Bearer <token> header
--Middleware verifies token → grants access to protected routes
+- User logs in → server validates credentials
+- Server issues JWT → client stores it (localStorage/cookie)
+- Client sends JWT in Authorization: Bearer <token> header
+- Middleware verifies token → grants access to protected routes
