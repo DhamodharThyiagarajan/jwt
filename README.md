@@ -17,7 +17,7 @@ cd jwt
 npm install
 
 
-##⚙️ Setup
+## ⚙️ Setup
 Create a .env file in the root:
 
 Code
@@ -26,7 +26,7 @@ MONGO_URI=your_mongodb_connection_string
 SECRET_KEY=your_secret_key
 
 
-##📖 Example Flow
+## 📖 Example Flow
 -User logs in → server validates credentials
 -Server issues JWT → client stores it (localStorage/cookie)
 -Client sends JWT in Authorization: Bearer <token> header
